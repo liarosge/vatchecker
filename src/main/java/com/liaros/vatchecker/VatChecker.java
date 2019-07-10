@@ -11,7 +11,7 @@ public class VatChecker {
 		Parser parser = new Parser();
 		Country[] countries = parser.parseFromURL("http://jsonvat.com/");
 
-		solutionA(countries);
+		//solutionA(countries);
 		System.out.println("--------");
 		solutionB(countries);
 		
